@@ -1,0 +1,10 @@
+model,features,feature_count,n_estimators,dataset_test_size,hz,data_set,quantization,accuracy,precision,recall,f1,model_path
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y']",5,4,0.35,20,base,,1.0,1.0,1.0,1.0,./models/optimized/base/random_forest/random_forest_20_acc_x_acc_y_acc_z_gyro_x_gyro_y_4.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y']",5,5,0.35,20,base,,1.0,1.0,1.0,1.0,./models/optimized/base/random_forest/random_forest_20_acc_x_acc_y_acc_z_gyro_x_gyro_y_5.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y']",5,6,0.35,20,base,,1.0,1.0,1.0,1.0,./models/optimized/base/random_forest/random_forest_20_acc_x_acc_y_acc_z_gyro_x_gyro_y_6.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_z']",5,4,0.35,20,base,,1.0,1.0,1.0,1.0,./models/optimized/base/random_forest/random_forest_20_acc_x_acc_y_acc_z_gyro_x_gyro_z_4.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y', 'gyro_z']",6,5,0.35,25,base,,0.9875,0.984375,0.9924242424242424,0.9880893300248139,./models/optimized/base/random_forest/random_forest_25_acc_x_acc_y_acc_z_gyro_x_gyro_y_gyro_z_5.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y', 'gyro_z']",6,6,0.35,25,base,,0.9875,0.984375,0.9924242424242424,0.9880893300248139,./models/optimized/base/random_forest/random_forest_25_acc_x_acc_y_acc_z_gyro_x_gyro_y_gyro_z_6.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y']",5,6,0.35,50,base,,1.0,1.0,1.0,1.0,./models/optimized/base/random_forest/random_forest_50_acc_x_acc_y_acc_z_gyro_x_gyro_y_6.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_z']",5,6,0.35,50,base,,1.0,1.0,1.0,1.0,./models/optimized/base/random_forest/random_forest_50_acc_x_acc_y_acc_z_gyro_x_gyro_z_6.py
+random_forest,"['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y', 'gyro_z']",6,5,0.35,50,base,,1.0,1.0,1.0,1.0,./models/optimized/base/random_forest/random_forest_50_acc_x_acc_y_acc_z_gyro_x_gyro_y_gyro_z_5.py

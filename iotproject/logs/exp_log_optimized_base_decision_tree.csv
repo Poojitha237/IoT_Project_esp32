@@ -1,0 +1,16 @@
+exp_id,model,features,feature_count,dataset_test_size,hz,data_set,quantization,other_params,saved_model_path,accuracy,precision,recall,f1
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_x']",4,0.35,25,base,,default,models/optimized/base/decision_tree/decision_tree_decision_tree_25hz.py,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_y']",4,0.35,25,base,,default,models/optimized/base/decision_tree/decision_tree_decision_tree_25hz.py,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_z']",4,0.35,25,base,,default,models/optimized/base/decision_tree/decision_tree_decision_tree_25hz.py,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_x']",4,0.35,25,base,,default,models/optimized/base/decision_tree/decision_tree_decision_tree_25hz.py,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_y']",4,0.35,25,base,,default,models/optimized/base/decision_tree/decision_tree_decision_tree_25hz.py,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_z']",4,0.35,25,base,,default,models/optimized/base/decision_tree/decision_tree_decision_tree_25hz.py,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_x']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz.pkl,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_y']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz.pkl,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_z']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz.pkl,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_x']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz.pkl,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_y']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz.pkl,1.0,1.0,1.0,1.0
+decision_tree_25hz,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_z']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz.pkl,1.0,1.0,1.0,1.0
+decision_tree_25hz_acc_x_acc_y_acc_z_gyro_x,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_x']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz_acc_x_acc_y_acc_z_gyro_x.py,1.0,1.0,1.0,1.0
+decision_tree_25hz_acc_x_acc_y_acc_z_gyro_y,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_y']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz_acc_x_acc_y_acc_z_gyro_y.py,1.0,1.0,1.0,1.0
+decision_tree_25hz_acc_x_acc_y_acc_z_gyro_z,decision_tree,"['acc_x', 'acc_y', 'acc_z', 'gyro_z']",4,0.35,25,base,,default,models/optimized/base/decision_tree//decision_tree_25hz_acc_x_acc_y_acc_z_gyro_z.py,1.0,1.0,1.0,1.0
