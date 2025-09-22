@@ -62,3 +62,43 @@ Detecting gesture types like passing, pausing, or waving is challenging using si
 - ESP32 sends **30 IR readings via Serial** (COMx, 115200 baud)
 - Python script receives data, runs inference, and prints predictions:
 
+
+---
+
+## 🖥️ Deployment on ESP32
+
+- **Sketch:** `gesture_model.ino`
+- Reads analog input from GPIO34
+- Feeds 30 readings into `model.predict(input)`
+- Outputs predicted gesture via Serial
+- Runs **offline** every 3–5 seconds using minimal memory
+
+---
+
+## 📚 Dependencies
+
+| Environment | Dependencies |
+|-------------|--------------|
+| PC (Python) | numpy, pyserial, tensorflow, everywhereml |
+| ESP32       | Arduino IDE only (no external libraries) |
+| Hardware    | ESP32 Dev Module, IR analog sensor |
+
+---
+
+## 📈 Performance
+
+- Random Forest with **10 estimators**
+- **Near-instant inference** on ESP32
+- Sampling: 30 values × 100 ms interval (3 seconds)
+
+---
+
+## 💡 Future Enhancements
+
+- Add **OLED display** or **LED indicators** for gesture feedback
+- Implement **gesture-based triggers** (lights, audio, etc.)
+- Train model for **more gesture types**
+- Use **Edge Impulse** for larger-scale retraining and deployment
+
+---
+
