@@ -55,4 +55,10 @@ Detecting gesture types like passing, pausing, or waving is challenging using si
 
 ---
 
-## 🧠 Local Inference (Python + TFLit
+## 🧠 Local Inference (Python + TFLite)
+
+- **Script:** `predict_ir_gesture.py`
+- **Model:** `ir_gesture_model.tflite`
+- ESP32 sends **30 IR readings via Serial** (COMx, 115200 baud)
+- Python script receives data, runs inference, and prints predictions:
+
